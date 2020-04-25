@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d58ffa3ac2cc6dd6261de74508288707",
+    "revision": "7bbc8d45682ef3e3c927305ed614da2f",
     "url": "/deck.gl-mapbox-layer-example/index.html"
   },
   {
-    "revision": "d314bd778ca8540f71dd",
+    "revision": "544ec7c8bf3c431fde78",
     "url": "/deck.gl-mapbox-layer-example/static/css/main.9a875f40.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/deck.gl-mapbox-layer-example/static/js/2.940068ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d314bd778ca8540f71dd",
-    "url": "/deck.gl-mapbox-layer-example/static/js/main.94b736e6.chunk.js"
+    "revision": "544ec7c8bf3c431fde78",
+    "url": "/deck.gl-mapbox-layer-example/static/js/main.fb892b44.chunk.js"
   },
   {
     "revision": "53bea267e531ef6481f6",

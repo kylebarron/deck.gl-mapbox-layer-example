@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/deck.gl-mapbox-layer-example/precache-manifest.a4f0936f57d431ccd7f67ade46ceb84c.js"
+  "/deck.gl-mapbox-layer-example/precache-manifest.b53aae06582cc49ad3e8185c9181fb43.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/deck.gl-mapbox-layer-example/static/css/main.9a875f40.chunk.css",
-    "main.js": "/deck.gl-mapbox-layer-example/static/js/main.94b736e6.chunk.js",
-    "main.js.map": "/deck.gl-mapbox-layer-example/static/js/main.94b736e6.chunk.js.map",
+    "main.js": "/deck.gl-mapbox-layer-example/static/js/main.fb892b44.chunk.js",
+    "main.js.map": "/deck.gl-mapbox-layer-example/static/js/main.fb892b44.chunk.js.map",
     "runtime-main.js": "/deck.gl-mapbox-layer-example/static/js/runtime-main.06e050bc.js",
     "runtime-main.js.map": "/deck.gl-mapbox-layer-example/static/js/runtime-main.06e050bc.js.map",
     "static/js/2.940068ca.chunk.js": "/deck.gl-mapbox-layer-example/static/js/2.940068ca.chunk.js",
     "static/js/2.940068ca.chunk.js.map": "/deck.gl-mapbox-layer-example/static/js/2.940068ca.chunk.js.map",
     "index.html": "/deck.gl-mapbox-layer-example/index.html",
-    "precache-manifest.a4f0936f57d431ccd7f67ade46ceb84c.js": "/deck.gl-mapbox-layer-example/precache-manifest.a4f0936f57d431ccd7f67ade46ceb84c.js",
+    "precache-manifest.b53aae06582cc49ad3e8185c9181fb43.js": "/deck.gl-mapbox-layer-example/precache-manifest.b53aae06582cc49ad3e8185c9181fb43.js",
     "service-worker.js": "/deck.gl-mapbox-layer-example/service-worker.js",
     "static/css/main.9a875f40.chunk.css.map": "/deck.gl-mapbox-layer-example/static/css/main.9a875f40.chunk.css.map",
     "static/js/2.940068ca.chunk.js.LICENSE.txt": "/deck.gl-mapbox-layer-example/static/js/2.940068ca.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.06e050bc.js",
     "static/js/2.940068ca.chunk.js",
     "static/css/main.9a875f40.chunk.css",
-    "static/js/main.94b736e6.chunk.js"
+    "static/js/main.fb892b44.chunk.js"
   ]
 }
