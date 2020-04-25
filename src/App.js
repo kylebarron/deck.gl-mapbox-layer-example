@@ -12,9 +12,9 @@ import "./mapbox-gl.css";
 const mapStyle = require("./style.json");
 
 const initialViewState = {
-  longitude: -112.1861,
-  latitude: 36.1284,
-  zoom: 12.1,
+  longitude: -112.14516,
+  latitude: 36.06709,
+  zoom: 13.52,
   pitch: 0,
   bearing: 0,
 };
@@ -32,12 +32,11 @@ export default class Map extends React.Component {
     const deck = this._deck;
 
     // This id has to match the id of the Deck layer
+    // The ordering here is the order of how layers show up in Mapbox GL
+    // Later layers are rendered on top of earlier layers
+    map.addLayer(new MapboxLayer({ id: "tile-layer", deck }), "waterway_other");
     map.addLayer(
       new MapboxLayer({ id: "my-scatterplot", deck }),
-      "waterway_other"
-    );
-    map.addLayer(
-      new MapboxLayer({ id: "tile-layer", deck }),
       "waterway_other"
     );
   };
@@ -53,7 +52,7 @@ export default class Map extends React.Component {
         getFillColor: [0, 0, 255],
       }),
       new TileLayer({
-        id: 'tile-layer',
+        id: "tile-layer",
         // https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames#Tile_servers
         data: "https://c.tile.openstreetmap.org/{z}/{x}/{y}.png",
 
